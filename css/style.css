@@ -1,0 +1,62 @@
+
+body {
+    background-color: rgb(233, 227, 227);  
+    font-family:  Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+    color: grey;
+}
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+ ul {
+    padding: 0%;
+}   
+form {
+    background-color: peachpuff;
+    padding: 40px;
+}
+li {
+    height: 30px;
+    line-height: 30px;
+    list-style-type: none;
+    background-color: white;
+    border: 1px rgba(228, 222, 222, 0.918) solid;
+}
+li:nth-of-type(even) {
+    background-color: rgba(196, 192, 192, 0.952);
+}
+li:last-of-type {
+    border-bottom: 1px rgba(228, 222, 222, 0.918) solid;
+   }
+a {
+    width: 30px;
+    color: blue;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+}
+li:hover {
+    background-color: rgb(134, 124, 124);
+    cursor: pointer;
+}
+a:hover {
+    background-color: rgb(248, 175, 175);
+    text-decoration: underline;
+    cursor: pointer;
+}
+label,input,button:hover {
+    cursor: pointer;
+} 
+button {
+   background-color: rgb(87, 134, 161);
+   width: 100px;
+   height: 30px;
+  border-radius: 10px;
+  border:rgb(184, 210, 224);
+  margin: 20px;
+}
